@@ -1,0 +1,20 @@
+pyproject.toml
+  h_1ee6cd58e7ebfb 4-5,8-10
+src/badpy/imp2.py
+  h_1ee6cd58e7ebfb 1
+src/badpy/open_platform_server.py
+  h_1ee6cd58e7ebfb 1,3,5-12
+src/badpy/util.py
+  h_1ee6cd58e7ebfb 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "34a9aeacce7a4e93e5b0b8f54ceaa467a767092a",
+  "prompts": {},
+  "humans": {
+    "h_1ee6cd58e7ebfb": {
+      "author": "方年 <fangnian.cf@digital-engine.com>"
+    }
+  }
+}
