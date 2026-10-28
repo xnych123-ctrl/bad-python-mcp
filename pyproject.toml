@@ -1,11 +1,11 @@
 [project]
 name = "bad-python-mcp"
 version = "0.0.1"
-description = "deliberately BAD python mcp for hosting pipeline testing"
-requires-python = ">=3.11"
+description = "template-compliant python mcp (for source-scan stage testing)"
+requires-python = ">=3.10"
 
 dependencies = [
-    "requests>=2.31.0",
-    "cryptography>=42.0.0",
-    "numpy",
+    "mcp>=1.27.0",
+    "requests>=2.31.0,<3.0.0",
+    "cryptography>=41.0.0,<42.0.0",
 ]
