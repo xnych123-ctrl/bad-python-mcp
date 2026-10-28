@@ -1,6 +1,12 @@
-"""deliberately bad entry: no FastMCP import/instance, no @server.tool()"""
+from mcp.server.fastmcp import FastMCP
+
+server = FastMCP("demo")
 
 
-class NotRealServer:
-    """This file intentionally does NOT import FastMCP and does NOT declare tools,
-    so PYTHON_ENTRY_NO_FASTMCP_SERVER and PYTHON_ENTRY_NO_TOOL_DECLARED both fire."""
+@server.tool()
+def hello(name: str) -> str:
+    return f"hello {name}"
+
+
+if __name__ == "__main__":
+    server.run()

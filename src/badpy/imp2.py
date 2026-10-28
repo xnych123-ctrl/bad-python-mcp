@@ -1,6 +1,4 @@
-"""deliberately bad: package-name absolute import -> PYTHON_IMPORT_ABSOLUTE_PACKAGE"""
-
-from badpy.helper import Greeter
+from helper import Greeter
 
 
 def greet_loudly(name):
